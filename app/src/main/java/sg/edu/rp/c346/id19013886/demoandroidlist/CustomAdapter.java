@@ -43,7 +43,7 @@ public class CustomAdapter extends ArrayAdapter {
 
         // Set values to the TextView to display the corresponding information
         tvName.setText(currentVersion.getName());
-        tvVersion.setText(currentVersion.getVersion());
+        tvVersion.setText("Android version : " + currentVersion.getVersion());
 
         return rowView;
     }
